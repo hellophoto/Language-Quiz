@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#whichLanguage").submit(function(event){
+  $("form #whichLanguage").submit(function(event){
 
     const color= $("select#color").val();
     const activity= $("select#activity").val();
