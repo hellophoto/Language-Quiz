@@ -1,5 +1,6 @@
 $(document).ready(function() {
-  $("form#whichLanguage").event.preventDefault(); {
+  $("form#whichLanguage").submit(function(event) {
+    event.preventDefault();
 
     const color= $("select#color").val();
     const activity= $("select#activity").val();
@@ -32,10 +33,9 @@ $(document).ready(function() {
       language = "Swift";
       $("#Javascript, #CSharp, #Ruby").hide();
       $("#Swift").show();
-    }
-    $("#language").text(language);
-    $("#yourMatch").show();
-    $("whichLanguage").hide();
-    $("p").hide();
-  }
+      $("#language").text(language);
+      $("#yourMatch").show();
+      $("whichLanguage").hide();
+      $("p").hide();
+  };
 })
