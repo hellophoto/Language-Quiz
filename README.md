@@ -26,11 +26,15 @@ No known bugs at this time.
 
 ###Support and contact details
 
-{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}
+Please contact dcwhittaker@outlook.com if you run into any issues or have questions, ideas or concerns. Feel free to make any code contributions or add additional features/questions!
 
 ###Technologies Used
 
-HTML, CSS, Bootstrap, Javascript, jQuery, VS Code
+HTML
+CSS
+Bootstrap
+Javascript
+jQuery
 
 ###License
 

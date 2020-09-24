@@ -6,6 +6,7 @@ $(document).ready(function() {
     const food= $("select#food").val();
     const animal= $("select#animal").val();
     const travel= $("select#travel").val();
+    let language
 
     if (color === "Blue") {
       language = "C#";
@@ -32,10 +33,11 @@ $(document).ready(function() {
       $("#Javascript, #C#, #Ruby").hide();
       $("#Swift").show();
     }
+
     $("#language").text(language);
     $("#yourMatch").show();
     $("whichLanguage").hide();
-    $("h5").hide();
+    $("p").hide();
 
   }
 )}

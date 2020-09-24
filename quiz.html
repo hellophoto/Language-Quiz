@@ -2,11 +2,13 @@
 <html lang="en-US">
   <head>
     <script src="JS/scripts.js"></script>
+    <script src="JS/jquery-3.5.1.js"></script>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel='stylesheet' type="text/css">
     <title>Language Quiz</title>
   </head>
-  <body>
-    
+
+  <body>  
     <div class ="container">
     <h1>What Programming Language Should You Learn?</h1>
     <h4>If you're unsure what programming lanugage you should learn next, take this quiz for a recommendation!</h4>
@@ -57,13 +59,13 @@
       </select>
 
       <br>
-      <button type="submit" class="btn-btn-outline-dark">What Should I Learn??</button>
+      <button type="submit">What Should I Learn??</button>
     </form>
 
     <br>
     <br>
     <div id="yourMatch"> 
-      <p>Looks like you should learn <span id="whichLanguage"></span>. It fits your personality pretty well. Or maybe it doesn't!</p>
+      <p>Looks like you should learn <span id="Language"></span>. It fits your personality pretty well. Or maybe it doesn't!</p>
     </div>
     <div id="Javascript">
     </div>
@@ -75,5 +77,6 @@
     </div>
 
    </div>
+   
   </body>
 </html>
