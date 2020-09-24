@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form#whichLanguage").submit(function(event){
+  $("form#whichLanguage").event.preventDefault(); {
 
     const color= $("select#color").val();
     const activity= $("select#activity").val();
@@ -9,36 +9,33 @@ $(document).ready(function() {
     let language
 
     if (color === "Blue") {
-      language = "C#";
-      $("#Rust, #Javascript,#Swift").hide();
-      $("#C#").show();
+      language = "CSharp";
+      $("#Rust, #Javascript, #Swift").hide();
+      $("#CSharp").show();
     }
     else if (food === "Pasta") {
       language = "Rust";
-      $("#C#, #Swift, #Javascript").hide();
+      $("#CSharp, #Swift, #Javascript").hide();
       $("#Rust").show();
     }
     else if (animal === "Dolphin" && travel === "Hawaii") {
       language = "Swift";
-      $("#C#, #Rust, #Javscript").hide();
+      $("#CSharp, #Rust, #Javscript").hide();
       $("#Swift").show();
     }
     else if (activity === "Traveling") {
       language = "Javascript";
-      $("#C#, #Rust, #Swift").hide();
+      $("#CSharp, #Rust, #Swift").hide();
       $("#Javascript").show();
     }
     else {
       language = "Swift";
-      $("#Javascript, #C#, #Ruby").hide();
+      $("#Javascript, #CSharp, #Ruby").hide();
       $("#Swift").show();
     }
-
     $("#language").text(language);
     $("#yourMatch").show();
     $("whichLanguage").hide();
     $("p").hide();
-
   }
-)}
-)
+})
