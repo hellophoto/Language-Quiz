@@ -1,4 +1,17 @@
 body {
-  background-color: lightslategray;
+  background-image: url("https://hdwallpaperim.com/wp-content/uploads/2017/08/25/120534-code-programming-programming_language-JavaScript-colorful-simple_background-wallhaven-minified-syntax_highlighting.jpg");
+  background-attachment: scroll;
+  padding: 20px;
+}
+h1 {
+  color: black;
+}
+h4 {
+  color: black;
+}
+.container {
+  background-color: rgba(247, 246, 244, 0.80);
+  padding: 20px;
+  background-size: cover;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

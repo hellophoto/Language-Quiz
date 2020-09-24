@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("form #whichLanguage").submit(function(event){
+  $("form#whichLanguage").submit(function(event){
 
     const color= $("select#color").val();
     const activity= $("select#activity").val();
@@ -37,7 +37,6 @@ $(document).ready(function() {
     $("whichLanguage").hide();
     $("h5").hide();
 
-    Event.preventDefault();
   }
 )}
 )
