@@ -11,32 +11,32 @@ $(document).ready(function() {
 
     if (color === "Blue") {
       language = "CSharp";
-      $("#Rust, #Javascript, #Swift").hide();
-      $("#CSharp").show();
+     // $("#Rust, #Javascript, #Swift").hide();
+     // $("#CSharp").show();
     }
     else if (food === "Pasta") {
       language = "Rust";
-      $("#CSharp, #Swift, #Javascript").hide();
-      $("#Rust").show();
+     // $("#CSharp, #Swift, #Javascript").hide();
+     // $("#Rust").show();
     }
     else if (animal === "Dolphin" && travel === "Hawaii") {
       language = "Swift";
-      $("#CSharp, #Rust, #Javscript").hide();
-      $("#Swift").show();
+    //  $("#CSharp, #Rust, #Javscript").hide();
+     // $("#Swift").show();
     }
     else if (activity === "Traveling") {
       language = "Javascript";
-      $("#CSharp, #Rust, #Swift").hide();
-      $("#Javascript").show();
+     // $("#CSharp, #Rust, #Swift").hide();
+     // $("#Javascript").show();
     }
     else {
       language = "Swift";
-      $("#Javascript, #CSharp, #Ruby").hide();
-      $("#Swift").show();
+      //$("#Javascript, #CSharp, #Ruby").hide();
+     // $("#Swift").show();
     
     $("#language").text(language);
     $("#yourMatch").show();
-    $("whichLanguage").show();
+    $("#whichLanguage").show();
   };
 })
 })
