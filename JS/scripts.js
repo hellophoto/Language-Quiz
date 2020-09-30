@@ -33,9 +33,10 @@ $(document).ready(function() {
       language = "Swift";
       $("#Javascript, #CSharp, #Ruby").hide();
       $("#Swift").show();
-      $("#language").text(language);
-      $("#yourMatch").show();
-      $("whichLanguage").hide();
-      $("p").hide();
+    
+    $("#language").text(language);
+    $("#yourMatch").show();
+    $("whichLanguage").show();
   };
+})
 })
